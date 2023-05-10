@@ -19,6 +19,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "./.eslintrc.json", "./src/test/setup.ts"],
+  "include": ["src", "./.eslintrc.json"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
