@@ -6,7 +6,7 @@ describe('', () => {
   it('should <App/> component', () => {
     render(<App />);
     // screen.debug();
-    // expect(screen.queryByRole('button', { name: /btn/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /btn/i })).toBeInTheDocument();
+    // expect(screen.queryByRole('button', { name: /btn/i })).toBeInTheDocument();
   });
 });
